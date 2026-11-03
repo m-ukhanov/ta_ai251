@@ -30,7 +30,7 @@ def prim(graph):
 						min_weight = graph[i][j]					  
 						x,y=i,j
 		if y==-1: 
-			raise Excpetion("Граф не є зв'зяним")
+			raise Exception("Граф не є зв'зяним")
 
 		# adding the edge in the mst
 		selected[y] = True
