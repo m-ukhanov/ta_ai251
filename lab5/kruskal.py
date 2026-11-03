@@ -52,7 +52,7 @@ class Graph:
 				break
 
 		if len(mst) != self.vertices - 1: #Check if all veritces are connected
-			raise BaseExcpetion("Граф не є зв'зяним")
+			raise Exception("Граф не є зв'зяним")
 
 		return mst, total_weight
 
